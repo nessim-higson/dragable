@@ -178,8 +178,7 @@ const HELLO_HTML = `
 	<p><b>Click and drag to navigate.</b><br>
 	<b>Use tabs to the left and right or arrow keys to navigate quickly.</b></p>
 	<hr class="rule">
-	<p class="prev"><b>Rebuilt in 2026</b> from the decompiled original engine. The emulated
-	Flash version <a href="https://archive.iamalwayshungry.com/sites/v7/">lives here</a>.</p>
+	<p class="prev"><b>The previous site</b> <a href="https://archive.iamalwayshungry.com/sites/v7/">lives here</a></p>
 </div>`;
 
 function flashCard(item, slide) {
