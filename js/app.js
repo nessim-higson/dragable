@@ -321,16 +321,6 @@ function faceClass(face) {
 }
 
 function buildMenu() {
-	const head = document.createElement("div");
-	const mt = site.menuTitle;
-	head.className = "head";
-	head.textContent = mt.text;
-	head.style.fontSize = mt.fontSize + "px";
-	head.style.letterSpacing = mt.kerning + "px";
-	head.style.marginBottom = mt.space + "px";
-	head.style.color = "#111";
-	menuCol.appendChild(head);
-
 	site.items.forEach((it, i) => {
 		const a = document.createElement("a");
 		a.href = `${basePath}${it.slug === "intro" ? "" : it.slug}`;

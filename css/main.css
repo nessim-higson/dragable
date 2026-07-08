@@ -45,7 +45,7 @@ body {
 /* --- logo (drops in from above, hover opens menu) -------------- */
 #logo {
 	position: fixed;
-	top: 14px; left: 18px;
+	top: -6px; left: 14px; /* the mark meets the window top */
 	z-index: 47; /* below the scrim: the mark dims when the menu opens */
 	background: none; border: 0; padding: 0;
 	cursor: pointer;
@@ -214,7 +214,7 @@ body.dragging #tab-next .ins { transform: translateX(105%); }
 }
 #menu-col {
 	position: absolute;
-	top: 118px; left: 88px;
+	top: 72px; left: 88px;
 	pointer-events: auto;
 	opacity: 0;
 	transition: opacity 1s ease;
