@@ -95,12 +95,14 @@ body {
 	color: #111;
 }
 .hello .big {
+	/* calibrated to the original artwork: Futura Medium, 390px wide,
+	   translucent white (the live SWF renders it ~2/3 alpha) */
 	font-family: Futura, "Century Gothic", "Trebuchet MS", sans-serif;
-	font-size: 225px;
-	font-weight: 700;
-	letter-spacing: -0.045em;
-	line-height: 0.82;
-	color: #fff;
+	font-size: 167px;
+	font-weight: 500;
+	letter-spacing: -0.03em;
+	line-height: 0.9;
+	color: rgba(255, 255, 255, 0.66);
 	margin: 0;
 }
 .hello h2 { font-size: 52px; margin: 10px 0 22px; letter-spacing: -0.02em; }
