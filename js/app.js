@@ -246,13 +246,8 @@ function loadSection(index, { push = true } = {}) {
 		if (gen !== loadGen || i >= slides.length) return;
 		const s = slides[i];
 		if (s.type === "hello") {
-			const node = el(s.html);
-			plane.appendChild(node);
-			const w = Math.min(980, innerWidth * 0.92);
-			node.style.width = w + "px";
-			const h = node.offsetHeight || 560;
-			node.remove();
-			place(i, node, w, h);
+			// one.swf's stage was exactly 760×640; the Click slide abuts at x=760
+			place(i, el(s.html), 760, 640);
 		} else if (s.flash) {
 			const node = flashCard(item, s);
 			plane.appendChild(node);

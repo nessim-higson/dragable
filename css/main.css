@@ -53,7 +53,8 @@ body {
 	transition: transform 2s var(--expo);
 }
 #logo.in { transform: translateY(0); }
-#logo img { width: 300px; height: auto; display: block; mix-blend-mode: screen; /* BlendMode.SCREEN on the original logoView */ }
+#logo { mix-blend-mode: multiply; } /* the original mark sits multiplied into the scene */
+#logo img { width: 300px; height: auto; display: block; }
 
 /* --- stage / strip --------------------------------------------- */
 #stage {
@@ -86,25 +87,26 @@ body {
 	pointer-events: none;
 }
 
-/* hello / intro screen (HTML re-set of the original) */
+/* hello / intro screen — calibrated to the exported one.swf frame (760×640) */
 .hello {
-	width: 980px;
-	max-width: 92vw;
-	padding: 40px 44px;
+	width: 760px;
+	height: 640px;
+	padding: 118px 0 0 92px;
 	color: #111;
 }
 .hello .big {
-	font-size: clamp(80px, 12vw, 150px);
+	font-size: 225px;
 	font-weight: 700;
-	letter-spacing: -0.04em;
-	line-height: 0.9;
-	color: rgba(255,255,255,0.55);
+	letter-spacing: -0.05em;
+	line-height: 0.82;
+	color: #fff;
 	margin: 0;
 }
-.hello h2 { font-size: clamp(30px, 4.6vw, 46px); margin: 8px 0 18px; letter-spacing: -0.02em; }
-.hello p  { font-size: 15px; line-height: 1.5; max-width: 56ch; margin: 0 0 14px; }
-.hello .rule { border: 0; border-top: 1px solid rgba(0,0,0,0.5); margin: 18px 0; }
-.hello .prev a { color: #999; text-decoration: none; }
+.hello h2 { font-size: 52px; margin: 10px 0 22px; letter-spacing: -0.02em; }
+.hello p  { font-size: 19px; line-height: 1.42; max-width: 620px; margin: 0 0 16px; }
+.hello .rule { border: 0; border-top: 1px solid rgba(0,0,0,0.55); width: 660px; margin: 20px 0; }
+.hello .b19 { font-weight: 700; }
+.hello .prev a { color: #9a9a9a; text-decoration: none; }
 
 /* flash-slide placeholder */
 .flash-card {
