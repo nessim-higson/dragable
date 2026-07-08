@@ -91,9 +91,9 @@ function tick(now) {
 		cam.y = cam.fy + (cam.ty - cam.fy) * e;
 		if (p >= 1) cam.mode = "idle";
 	}
-	// left-anchored origin, vertically centered — the original stage was
-	// NO_SCALE / TOP_LEFT with the strip growing rightward from the left edge
-	plane.style.transform = `translate3d(${cam.x}px, ${innerHeight / 2 + cam.y}px, 0)`;
+	// left-anchored origin; the original's drag clip sat in the upper part
+	// of the stage, not centered — anchor the strip axis at 36% viewport height
+	plane.style.transform = `translate3d(${cam.x}px, ${Math.round(innerHeight * 0.36) + cam.y}px, 0)`;
 
 	// the drag hint chases the mouse with the same elastic /6
 	if (attract) {
@@ -147,7 +147,7 @@ function endAttract() {
 /* current slide = the one under the viewport center (Main.checkCurIdHandler) */
 function checkCurId() {
 	const cx = innerWidth / 2 - cam.x; // viewport center in plane coords
-	const cy = -cam.y;
+	const cy = innerHeight / 2 - Math.round(innerHeight * 0.36) - cam.y;
 	for (let i = 0; i < slides.length; i++) {
 		const s = slides[i];
 		if (!s.loaded) continue;

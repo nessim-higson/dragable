@@ -95,9 +95,10 @@ body {
 	color: #111;
 }
 .hello .big {
+	font-family: Futura, "Century Gothic", "Trebuchet MS", sans-serif;
 	font-size: 225px;
 	font-weight: 700;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.045em;
 	line-height: 0.82;
 	color: #fff;
 	margin: 0;
