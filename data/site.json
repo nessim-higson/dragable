@@ -1,0 +1,1858 @@
+{
+ "menuTitle": "ForWord",
+ "items": [
+  {
+   "deeplink": "INTRO",
+   "slug": "intro",
+   "title": "INTRODUCTION",
+   "face": "Gotham-Bold",
+   "fontSize": 13,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#f1f314",
+   "slides": [
+    {
+     "src": "assets/images/START/one.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/START/two.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/START/three.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/START/four.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "INFO",
+   "slug": "info",
+   "title": "ABOUT",
+   "face": "Gotham-Bold",
+   "fontSize": 13,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/ABOUT/ABOUT.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    }
+   ]
+  },
+  {
+   "deeplink": "WHAT",
+   "slug": "what",
+   "title": "WHAT IS THIS",
+   "face": "Gotham-Bold",
+   "fontSize": 13,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/WHAT/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/two.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/three.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/four.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/five.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/six.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/seven.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/eight.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/nine.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHAT/ten.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "REEL",
+   "slug": "reel",
+   "title": "LATEST REEL",
+   "face": "Gotham-Bold",
+   "fontSize": 13,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/REEL/REEL.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    }
+   ]
+  },
+  {
+   "deeplink": "ADC",
+   "slug": "adc",
+   "title": "ADC Henry Wolf",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#e8e5d6",
+   "slides": [
+    {
+     "src": "assets/images/ADC/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC/TWO.jpg",
+     "focusX": -400,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC/THREE.jpg",
+     "focusX": 200,
+     "focusY": 450,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "ADCBackStory",
+   "slug": "adcback-story",
+   "title": "ADC Back Story",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/ADC-BACK/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC-BACK/TWO.jpg",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ADC-BACK/THREE.jpg",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "AmSci",
+   "slug": "am-sci",
+   "title": "American Scientific",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/AMERICAN/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/AMERICAN/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/AMERICAN/THREE.jpg",
+     "focusX": -100,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/AMERICAN/FOUR.jpg",
+     "focusX": -100,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/AMERICAN/FIVE.jpg",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "DCbatman",
+   "slug": "dcbatman",
+   "title": "Batman",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/BATMAN/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/BATMAN/TWO.jpg",
+     "focusX": -400,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "CARD",
+   "slug": "card",
+   "title": "MH Card",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/CARD/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CARD/TWO.swf",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/CARD/THREE.jpg",
+     "focusX": -200,
+     "focusY": 100,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CARD/FOUR.jpg",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CARD/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "obama",
+   "slug": "obama",
+   "title": "Change",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#KKKKKK",
+   "slides": [
+    {
+     "src": "assets/images/CHANGE/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/CHANGE/SEVEN.jpg",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "Tibet",
+   "slug": "tibet",
+   "title": "Data",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/DATA/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/DATA/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/DATA/THREE.jpg",
+     "focusX": 200,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/DATA/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/DATA/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/DATA/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "INTER1",
+   "slug": "inter1",
+   "title": "Intermission No.1",
+   "face": "Adobe Caslon Pro SmBd Italic",
+   "fontSize": 18,
+   "out": "#0dd9f1",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#a7b2b4",
+   "slides": [
+    {
+     "src": "assets/images/INTER1/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER1/TWO.jpg",
+     "focusX": 150,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER1/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "EasierThanReading",
+   "slug": "easier-than-reading",
+   "title": "Easier Than Reading",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#161616",
+   "slides": [
+    {
+     "src": "assets/images/ETR/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ETR/two.swf",
+     "focusX": -400,
+     "focusY": -100,
+     "flash": true
+    },
+    {
+     "src": "assets/images/ETR/three.jpg",
+     "focusX": -200,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ETR/four.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ETR/five.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ETR/six.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/ETR/seven.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "FLOW",
+   "slug": "flow",
+   "title": "Ripe",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/FLOW/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/FLOW/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/FLOW/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/FLOW/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/FLOW/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "TheGirlfriendExperience",
+   "slug": "the-girlfriend-experience",
+   "title": "The Girlfriend Experience",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#dda9c0",
+   "slides": [
+    {
+     "src": "assets/images/GFE/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/THREE.jpg",
+     "focusX": 100,
+     "focusY": 700,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/FIVE.jpg",
+     "focusX": 50,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/SIX.jpg",
+     "focusX": -250,
+     "focusY": 700,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/SEVEN.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GFE/EIGHT.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "Gom",
+   "slug": "gom",
+   "title": "Gomorrah",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/GOM/one.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/GOM/TWO.swf",
+     "focusX": -400,
+     "focusY": -70,
+     "flash": true
+    },
+    {
+     "src": "assets/images/GOM/three.swf",
+     "focusX": 300,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/GOM/FOUR.jpg",
+     "focusX": 50,
+     "focusY": 1400,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GOM/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GOM/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GOM/SEVEN.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "Grab",
+   "slug": "grab",
+   "title": "Grab Bag",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/GRAB/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/GRAB/SEVEN.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "DCHauntedTank",
+   "slug": "dchaunted-tank",
+   "title": "Haunted",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/HAUNTED/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HAUNTED/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HAUNTED/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "Hoop",
+   "slug": "hoop",
+   "title": "Hoop Nights",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/HOOP/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HOOP/TWO.jpg",
+     "focusX": 300,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HOOP/THREE.jpg",
+     "focusX": 50,
+     "focusY": 350,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HOOP/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HOOP/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "TheHunger",
+   "slug": "the-hunger",
+   "title": "Hunger",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#KKKKKK",
+   "slides": [
+    {
+     "src": "assets/images/HUNGER/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HUNGER/TWO.jpg",
+     "focusX": -100,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HUNGER/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HUNGER/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/HUNGER/FIVE.jpg",
+     "focusX": 250,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "INTER2",
+   "slug": "inter2",
+   "title": "Intermission No.2",
+   "face": "Adobe Caslon Pro SmBd Italic",
+   "fontSize": 18,
+   "out": "#0dd9f1",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/INTER2/ONE.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER2/TWO.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER2/THREE.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER2/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER2/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 200,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "ACInvite",
+   "slug": "acinvite",
+   "title": "Invite",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/INVITE/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/TWO.swf",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/INVITE/THREE.jpg",
+     "focusX": -100,
+     "focusY": 100,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/FOUR.jpg",
+     "focusX": -150,
+     "focusY": 100,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/SIX.jpg",
+     "focusX": 0,
+     "focusY": 150,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/SEVEN.jpg",
+     "focusX": 50,
+     "focusY": 100,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INVITE/EIGHT.jpg",
+     "focusX": -150,
+     "focusY": 180,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "JK",
+   "slug": "jk",
+   "title": "Julien K",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/JK/ONE.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/JK/TWO.jpg",
+     "focusX": -200,
+     "focusY": -20,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/THREE.jpg",
+     "focusX": -200,
+     "focusY": 70,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/FOUR.jpg",
+     "focusX": -150,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/FIVE.jpg",
+     "focusX": -200,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/SIX.jpg",
+     "focusX": -300,
+     "focusY": 100,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/SEVEN.jpg",
+     "focusX": 470,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/JK/EIGHT.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "TheKnowing",
+   "slug": "the-knowing",
+   "title": "Knowing",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/KNOWING/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/KNOWING/TWO.swf",
+     "focusX": -400,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/KNOWING/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/KNOWING/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/KNOWING/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/KNOWING/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "MAD",
+   "slug": "mad",
+   "title": "MAD in Spain",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#95c6e7",
+   "slides": [
+    {
+     "src": "assets/images/MAD/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MAD/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MAD/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MAD/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MAD/FIVE.jpg",
+     "focusX": 400,
+     "focusY": -80,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "M6",
+   "slug": "m6",
+   "title": "Mazda 6",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/MAZDA/one.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/MAZDA/two.swf",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/MAZDA/three.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/MAZDA/four.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/MAZDA/five.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/MAZDA/six.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    }
+   ]
+  },
+  {
+   "deeplink": "INTER3",
+   "slug": "inter3",
+   "title": "Intermission No.3",
+   "face": "Adobe Caslon Pro SmBd Italic",
+   "fontSize": 18,
+   "out": "#0dd9f1",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/INTER3/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER3/TWO.jpg",
+     "focusX": 150,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER3/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER3/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "MensJournal",
+   "slug": "mens-journal",
+   "title": "Mens Journal",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/MENS/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MENS/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MENS/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MENS/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/MENS/FIVE.jpg",
+     "focusX": -75,
+     "focusY": 150,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PASS",
+   "slug": "pass",
+   "title": "Pssst Pass it On",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/PASS/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PASS/TWO.jpg",
+     "focusX": 0,
+     "focusY": 550,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PASS/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PASS/FOUR.swf",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/PASS/FIVE.jpg",
+     "focusX": 400,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PECHE",
+   "slug": "peche",
+   "title": "Peche Noire",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/PECHE/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PECHE/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PECHE/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PECHE/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PECHE/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PREDATOR",
+   "slug": "predator",
+   "title": "Predator",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/PREDATOR/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PREDATOR/TWO.jpg",
+     "focusX": -180,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PREDATOR/THREE.swf",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/PREDATOR/FOUR.jpg",
+     "focusX": -100,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/PREDATOR/FIVE.jpg",
+     "focusX": 30,
+     "focusY": 70,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PRIME-MARK",
+   "slug": "prime-mark",
+   "title": "Prime",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#f5f3da",
+   "slides": [
+    {
+     "src": "assets/images/P-MARK/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-MARK/two.swf",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/P-MARK/three.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-MARK/four.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-MARK/five.jpg",
+     "focusX": -50,
+     "focusY": 150,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-MARK/six.jpg",
+     "focusX": -200,
+     "focusY": 300,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-MARK/seven.jpg",
+     "focusX": 70,
+     "focusY": 150,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PBroadcast",
+   "slug": "pbroadcast",
+   "title": "Prime-Broadcast",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/P-BROADCAST/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST/info-primebroadcast.swf",
+     "focusX": -400,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/P-BROADCAST/three.jpg",
+     "focusX": 150,
+     "focusY": 200,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST/four.jpg",
+     "focusX": 100,
+     "focusY": 75,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "PRIME-Motion-Explore",
+   "slug": "prime-motion-explore",
+   "title": "Prime-Motion exploratory",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/two.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/three.jpg",
+     "focusX": -200,
+     "focusY": 400,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/four.jpg",
+     "focusX": -200,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/five.jpg",
+     "focusX": -200,
+     "focusY": 900,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/six.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/P-BROADCAST-STUDIES/seven.jpg",
+     "focusX": -100,
+     "focusY": 300,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "INTERMISSION4",
+   "slug": "intermission4",
+   "title": "Intermission No.4",
+   "face": "Adobe Caslon Pro SmBd Italic",
+   "fontSize": 18,
+   "out": "#0dd9f1",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#FFFFFF",
+   "slides": [
+    {
+     "src": "assets/images/INTER4/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER4/two.jpg",
+     "focusX": -200,
+     "focusY": 650,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER4/three.jpg",
+     "focusX": 400,
+     "focusY": 400,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER4/four.jpg",
+     "focusX": 0,
+     "focusY": 400,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER4/five.jpg",
+     "focusX": 0,
+     "focusY": 400,
+     "flash": false
+    },
+    {
+     "src": "assets/images/INTER4/six.jpg",
+     "focusX": 0,
+     "focusY": 400,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "TheUninvited",
+   "slug": "the-uninvited",
+   "title": "Uninvited",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/UNINVITED/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/UNINVITED/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/UNINVITED/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/UNINVITED/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/UNINVITED/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "VanderbiltSleepCenter",
+   "slug": "vanderbilt-sleep-center",
+   "title": "Vanderbilt Sleep Center",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/SLEEP/one.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/SLEEP/info-sleep.swf",
+     "focusX": -300,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/SLEEP/three.jpg",
+     "focusX": -150,
+     "focusY": 800,
+     "flash": false
+    },
+    {
+     "src": "assets/images/SLEEP/four.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/SLEEP/five.jpg",
+     "focusX": -150,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "VIGILANTE",
+   "slug": "vigilante",
+   "title": "Vigilante",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#000000",
+   "slides": [
+    {
+     "src": "assets/images/VIGILANTE/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/VIGILANTE/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/VIGILANTE/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/VIGILANTE/FOUR.jpg",
+     "focusX": 50,
+     "focusY": 50,
+     "flash": false
+    },
+    {
+     "src": "assets/images/VIGILANTE/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "WHYWELAUGH",
+   "slug": "whywelaugh",
+   "title": "Why We Laugh",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/WHY/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/TWO.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/SIX.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WHY/SEVEN.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "WILD",
+   "slug": "wild",
+   "title": "Where the Wild Things Are",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#ffffff",
+   "slides": [
+    {
+     "src": "assets/images/WILD/ONE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WILD/TWO.jpg",
+     "focusX": -350,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WILD/THREE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WILD/FOUR.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    },
+    {
+     "src": "assets/images/WILD/FIVE.jpg",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": false
+    }
+   ]
+  },
+  {
+   "deeplink": "WINNI",
+   "slug": "winni",
+   "title": "Winnipeg",
+   "face": "Politica Italic",
+   "fontSize": 50,
+   "out": "#707171",
+   "over": "#000000",
+   "select": "#FFFFFF",
+   "bg": "#cbcbcb",
+   "slides": [
+    {
+     "src": "assets/images/WINNI/ONE.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/TWO.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/THREE.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/FOUR.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/FIVE.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/SIX.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    },
+    {
+     "src": "assets/images/WINNI/SEVEN.swf",
+     "focusX": 0,
+     "focusY": 0,
+     "flash": true
+    }
+   ]
+  }
+ ]
+}

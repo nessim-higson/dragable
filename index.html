@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>iamalwayshungry™ / no.7 — rebuilt</title>
+<meta name="description" content="IAAH v7 (2008–2009), the draggable-canvas portfolio, rebuilt in modern web technology. Original engine: dragable.swf.">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+	<header id="brand">
+		<button id="wordmark" aria-label="Open menu">
+			<span class="mark">iamalwayshungry<span class="tm">™</span></span>
+			<span class="sub">no.7 &middot; rebuilt</span>
+		</button>
+		<h1 id="section-title" aria-live="polite"></h1>
+	</header>
+
+	<main id="stage" aria-label="Draggable canvas">
+		<div id="plane"></div>
+		<div id="hint">Hold down mouse and drag to navigate</div>
+	</main>
+
+	<button id="tab-prev" class="edge-tab" aria-label="Previous slide">
+		<span class="dir">Prev</span>
+	</button>
+	<button id="tab-next" class="edge-tab" aria-label="Next slide">
+		<span class="dir">Next</span><span class="count" id="count"></span>
+	</button>
+
+	<nav id="menu" aria-label="Projects" hidden>
+		<div id="menu-title"></div>
+		<ol id="menu-list"></ol>
+	</nav>
+
+	<script type="module" src="/js/app.js"></script>
+</body>
+</html>
