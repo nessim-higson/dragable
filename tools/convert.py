@@ -49,6 +49,8 @@ for m in re.finditer(r"<menuItem\s+([^>]*)>(.*?)</menuItem>", xml, re.S):
         "title": title,
         "face": battr("face"),
         "fontSize": int(battr("fontSize") or 0) or None,
+        "kerning": float(battr("kerning") or 0),
+        "space": int(battr("spaceBelow") or 0),
         "out": color(battr("outcolor")),
         "over": color(battr("overcolor")),
         "select": color(battr("selectcolor")),
@@ -56,9 +58,20 @@ for m in re.finditer(r"<menuItem\s+([^>]*)>(.*?)</menuItem>", xml, re.S):
         "slides": slides,
     })
 
-mt = re.search(r"<menuTitle[^>]*>(.*?)</menuTitle>", xml, re.S)
+mt = re.search(r'<menuTitle\s+([^>]*)>(.*?)</menuTitle>', xml, re.S)
+def mattr(name):
+    r = re.search(rf'{name}="([^"]*)"', mt.group(1)) if mt else None
+    return r.group(1) if r else None
+sc = re.search(r"<scrimColor>([^<]*)</scrimColor>", xml)
 site = {
-    "menuTitle": mt.group(1).strip() if mt else "ForWord",
+    "menuTitle": {
+        "text": mt.group(2).strip() if mt else "ForWord",
+        "face": mattr("face"),
+        "fontSize": int(mattr("fontSize") or 34),
+        "kerning": float(mattr("kerning") or 0),
+        "space": int(mattr("spaceBelow") or 10),
+    },
+    "scrim": color(sc.group(1).strip()) if sc and sc.group(1).strip() else "#000000",
     "items": items,
 }
 OUT.write_text(json.dumps(site, indent=1), encoding="utf-8")
