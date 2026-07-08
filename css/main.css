@@ -46,7 +46,7 @@ body {
 #logo {
 	position: fixed;
 	top: 14px; left: 18px;
-	z-index: 49; /* above scrim, below menu text — original stacking */
+	z-index: 47; /* below the scrim: the mark dims when the menu opens */
 	background: none; border: 0; padding: 0;
 	cursor: pointer;
 	transform: translateY(-500px);
