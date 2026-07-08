@@ -91,7 +91,7 @@ body {
 .hello {
 	width: 760px;
 	height: 640px;
-	padding: 118px 0 0 92px;
+	padding: 188px 0 0 92px;
 	color: #111;
 }
 .hello .big {
@@ -105,9 +105,9 @@ body {
 	color: #fff;
 	margin: 0;
 }
-.hello h2 { font-size: 52px; margin: 10px 0 22px; letter-spacing: -0.02em; }
-.hello p  { font-size: 19px; line-height: 1.38; max-width: 662px; margin: 0 0 16px; }
-.hello .rule { border: 0; border-top: 1px solid rgba(0,0,0,0.55); width: 660px; margin: 20px 0; }
+.hello h2 { font-size: 52px; margin: 10px 0 14px; letter-spacing: -0.02em; }
+.hello p  { font-size: 19px; line-height: 1.38; max-width: 662px; margin: 0 0 10px; }
+.hello .rule { border: 0; border-top: 1px solid rgba(0,0,0,0.55); width: 660px; margin: 9px 0; }
 .hello .b19 { font-weight: 700; }
 .hello .prev a { color: #9a9a9a; text-decoration: none; }
 
