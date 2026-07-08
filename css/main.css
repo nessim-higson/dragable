@@ -46,14 +46,14 @@ body {
 #logo {
 	position: fixed;
 	top: 14px; left: 18px;
-	z-index: 60;
+	z-index: 49; /* above scrim, below menu text — original stacking */
 	background: none; border: 0; padding: 0;
 	cursor: pointer;
 	transform: translateY(-500px);
 	transition: transform 2s var(--expo);
 }
 #logo.in { transform: translateY(0); }
-#logo img { width: 92px; height: auto; display: block; }
+#logo img { width: 300px; height: auto; display: block; }
 
 /* --- stage / strip --------------------------------------------- */
 #stage {
@@ -214,7 +214,7 @@ body.dragging #tab-next .ins { transform: translateX(105%); }
 }
 #menu-col {
 	position: absolute;
-	top: 30px; left: 30px;
+	top: 118px; left: 88px;
 	pointer-events: auto;
 	opacity: 0;
 	transition: opacity 1s ease;
@@ -222,14 +222,14 @@ body.dragging #tab-next .ins { transform: translateX(105%); }
 }
 #menu.open #menu-col { opacity: 1; }
 #menu-col .head {
-	font-family: "HelveticaNeue-CondensedBold", "Gotham", "Arial Narrow", sans-serif;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
+	line-height: normal;
 }
 #menu-col a {
 	display: block;
 	text-decoration: none;
-	line-height: 1.02;
+	line-height: normal; /* font-metric spacing, as Flash TextFields did */
 	white-space: nowrap;
 	transition: color 1s ease;
 }
@@ -239,6 +239,7 @@ body.dragging #tab-next .ins { transform: translateX(105%); }
 #menu-col a.selected   { cursor: default; }
 
 @media (max-width: 640px) {
-	#logo img { width: 72px; }
+	#logo img { width: 180px; }
+	#menu-col { top: 96px; left: 24px; }
 	.hello { padding: 24px; }
 }
