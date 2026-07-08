@@ -22,6 +22,11 @@
 	font-display: swap;
 }
 @font-face {
+	font-family: "AvantGarde";
+	src: url("/fonts/avantgarde-book.woff2") format("woff2");
+	font-display: swap;
+}
+@font-face {
 	font-family: "CaslonSmBd";
 	src: url("/fonts/caslon-smbd-italic.ttf") format("truetype");
 	font-style: italic;
@@ -95,12 +100,12 @@ body {
 	color: #111;
 }
 .hello .big {
-	/* calibrated to the original artwork: Futura Medium, 390px wide,
-	   translucent white (the live SWF renders it ~2/3 alpha) */
-	font-family: Futura, "Century Gothic", "Trebuchet MS", sans-serif;
+	/* Avant Garde Book (TeX Gyre Adventor), width-calibrated to the
+	   artwork's 390px "hello." on the 760 stage */
+	font-family: "AvantGarde", Futura, "Century Gothic", sans-serif;
 	font-size: 167px;
-	font-weight: 500;
-	letter-spacing: -0.03em;
+	font-weight: 400;
+	letter-spacing: -0.02em;
 	line-height: 0.9;
 	color: #fff;
 	margin: 0;
