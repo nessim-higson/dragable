@@ -25,4 +25,8 @@ rsync -a \
   --exclude package-lock.json \
   ./ _deploy/
 
+# stamp asset URLs with the commit hash so browsers drop stale caches
+HASH=$(git rev-parse --short HEAD 2>/dev/null || echo manual)
+sed -i '' "s/?v=dev/?v=$HASH/g" _deploy/index.html
+
 npx -y wrangler pages deploy _deploy --project-name dragable --branch main --commit-dirty=true
