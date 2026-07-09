@@ -25,7 +25,9 @@
      "src": "assets/images/START/one.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 760,
+     "h": 640
     },
     {
      "src": "assets/images/START/two.jpg",
@@ -64,7 +66,9 @@
      "src": "assets/images/ABOUT/ABOUT.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1265,
+     "h": 858
     }
    ]
   },
@@ -160,7 +164,9 @@
      "src": "assets/images/REEL/REEL.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1876,
+     "h": 1498
     }
    ]
   },
@@ -343,7 +349,9 @@
      "src": "assets/images/CARD/TWO.swf",
      "focusX": -350,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 464,
+     "h": 856
     },
     {
      "src": "assets/images/CARD/THREE.jpg",
@@ -529,7 +537,9 @@
      "src": "assets/images/ETR/two.swf",
      "focusX": -400,
      "focusY": -100,
-     "flash": true
+     "flash": true,
+     "w": 454,
+     "h": 1542
     },
     {
      "src": "assets/images/ETR/three.jpg",
@@ -688,19 +698,25 @@
      "src": "assets/images/GOM/one.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1032,
+     "h": 1269
     },
     {
      "src": "assets/images/GOM/TWO.swf",
      "focusX": -400,
      "focusY": -70,
-     "flash": true
+     "flash": true,
+     "w": 468,
+     "h": 1287
     },
     {
      "src": "assets/images/GOM/three.swf",
      "focusX": 300,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1667,
+     "h": 1665
     },
     {
      "src": "assets/images/GOM/FOUR.jpg",
@@ -976,7 +992,9 @@
      "src": "assets/images/INVITE/TWO.swf",
      "focusX": -350,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 464,
+     "h": 630
     },
     {
      "src": "assets/images/INVITE/THREE.jpg",
@@ -1033,7 +1051,9 @@
      "src": "assets/images/JK/ONE.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 768,
+     "h": 2000
     },
     {
      "src": "assets/images/JK/TWO.jpg",
@@ -1102,7 +1122,9 @@
      "src": "assets/images/KNOWING/TWO.swf",
      "focusX": -400,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 468,
+     "h": 834
     },
     {
      "src": "assets/images/KNOWING/THREE.jpg",
@@ -1192,37 +1214,49 @@
      "src": "assets/images/MAZDA/one.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1032,
+     "h": 1070
     },
     {
      "src": "assets/images/MAZDA/two.swf",
      "focusX": -350,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 660,
+     "h": 1046
     },
     {
      "src": "assets/images/MAZDA/three.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1391,
+     "h": 891
     },
     {
      "src": "assets/images/MAZDA/four.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 540,
+     "h": 1378
     },
     {
      "src": "assets/images/MAZDA/five.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1103,
+     "h": 905
     },
     {
      "src": "assets/images/MAZDA/six.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1269,
+     "h": 666
     }
    ]
   },
@@ -1345,7 +1379,9 @@
      "src": "assets/images/PASS/FOUR.swf",
      "focusX": -300,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 456,
+     "h": 2000
     },
     {
      "src": "assets/images/PASS/FIVE.jpg",
@@ -1429,7 +1465,9 @@
      "src": "assets/images/PREDATOR/THREE.swf",
      "focusX": -350,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 850,
+     "h": 1244
     },
     {
      "src": "assets/images/PREDATOR/FOUR.jpg",
@@ -1468,7 +1506,9 @@
      "src": "assets/images/P-MARK/two.swf",
      "focusX": -300,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 510,
+     "h": 524
     },
     {
      "src": "assets/images/P-MARK/three.jpg",
@@ -1525,7 +1565,9 @@
      "src": "assets/images/P-BROADCAST/info-primebroadcast.swf",
      "focusX": -400,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 488,
+     "h": 650
     },
     {
      "src": "assets/images/P-BROADCAST/three.jpg",
@@ -1717,7 +1759,9 @@
      "src": "assets/images/SLEEP/info-sleep.swf",
      "focusX": -300,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 716,
+     "h": 1650
     },
     {
      "src": "assets/images/SLEEP/three.jpg",
@@ -1903,43 +1947,57 @@
      "src": "assets/images/WINNI/ONE.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 448,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/TWO.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 440,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/THREE.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 870,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/FOUR.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1020,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/FIVE.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 456,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/SIX.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 1506,
+     "h": 2000
     },
     {
      "src": "assets/images/WINNI/SEVEN.swf",
      "focusX": 0,
      "focusY": 0,
-     "flash": true
+     "flash": true,
+     "w": 2063,
+     "h": 2000
     }
    ]
   }

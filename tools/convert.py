@@ -4,9 +4,21 @@
 The 2008 XML is hand-authored (loose entities, CDATA everywhere), so this
 parses with regex rather than a strict XML parser.
 """
-import json, re, sys, pathlib
+import json, re, sys, pathlib, zlib
 
 SRC = pathlib.Path(sys.argv[1])
+
+def swf_size(path):
+    """Stage size in px from the SWF header RECT (twips)."""
+    try:
+        d = open(path, "rb").read()
+        body = zlib.decompress(d[8:]) if d[:1] == b"C" else d[8:]
+        nbits = body[0] >> 3
+        bits = "".join(f"{b:08b}" for b in body[:32])[5:]
+        vals = [int(bits[i*nbits:(i+1)*nbits], 2) for i in range(4)]
+        return round((vals[1]-vals[0])/20), round((vals[3]-vals[2])/20)
+    except Exception:
+        return 760, 540
 OUT = pathlib.Path(__file__).parent.parent / "data" / "site.json"
 
 xml = SRC.read_text(encoding="utf-8", errors="replace")
@@ -37,12 +49,16 @@ for m in re.finditer(r"<menuItem\s+([^>]*)>(.*?)</menuItem>", xml, re.S):
         ia, path = it.group(1), it.group(2).strip()
         fx = re.search(r'focusX="(-?\d+)"', ia)
         fy = re.search(r'focusY="(-?\d+)"', ia)
-        slides.append({
+        entry = {
             "src": path,
             "focusX": int(fx.group(1)) if fx else 0,
             "focusY": int(fy.group(1)) if fy else 0,
             "flash": path.lower().endswith(".swf"),
-        })
+        }
+        if entry["flash"]:
+            w, h = swf_size(pathlib.Path(__file__).parent.parent / path)
+            entry["w"], entry["h"] = w, h
+        slides.append(entry)
     items.append({
         "deeplink": deeplink,
         "slug": slugify(deeplink),

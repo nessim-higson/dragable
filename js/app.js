@@ -181,6 +181,24 @@ const HELLO_HTML = `
 	<p class="prev"><b>The previous site</b> <a href="https://archive.iamalwayshungry.com/sites/v7/">lives here</a></p>
 </div>`;
 
+let rufflePromise = null;
+function ensureRuffle() {
+	if (!rufflePromise) {
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.RufflePlayer.config = {
+			autoplay: "on", unmuteOverlay: "hidden", splashScreen: false,
+			letterbox: "off", contextMenu: "rightClickOnly", logLevel: "error",
+		};
+		rufflePromise = new Promise((res, rej) => {
+			const s = document.createElement("script");
+			s.src = "/ruffle/ruffle.js";
+			s.onload = res; s.onerror = rej;
+			document.head.appendChild(s);
+		});
+	}
+	return rufflePromise;
+}
+
 function flashCard(item, slide) {
 	return el(`<div class="flash-card">
 		<span class="k">original flash slide</span>
@@ -248,11 +266,15 @@ function loadSection(index, { push = true } = {}) {
 			// one.swf's stage was exactly 760×640; the Click slide abuts at x=760
 			place(i, el(s.html), 760, 640);
 		} else if (s.flash) {
-			const node = flashCard(item, s);
-			plane.appendChild(node);
-			const w = node.offsetWidth || 720, h = node.offsetHeight || 220;
-			node.remove();
-			place(i, node, Math.max(w, 720), Math.max(h, 220));
+			const w = s.w || 760, h = s.h || 540;
+			ensureRuffle().then(() => {
+				if (gen !== loadGen) return;
+				const player = window.RufflePlayer.newest().createPlayer();
+				player.style.width = w + "px";
+				player.style.height = h + "px";
+				(player.ruffle ? player.ruffle() : player).load({ url: "/" + s.src });
+				place(i, player, w, h);
+			}).catch(() => place(i, flashCard(item, s), 720, 220));
 		} else {
 			const img = new Image();
 			img.src = "/" + s.src;
@@ -322,7 +344,8 @@ function buildMenu() {
 		a.textContent = it.title;
 		a.style.fontSize = (it.fontSize || 16) + "px";
 		a.style.letterSpacing = (it.kerning || 0) + "px";
-		a.style.marginBottom = (it.space || 0) + "px";
+		const nextIsProject = SYS_SLUGS.has(it.slug) && site.items[i + 1] && !SYS_SLUGS.has(site.items[i + 1].slug);
+		a.style.marginBottom = SYS_SLUGS.has(it.slug) ? (nextIsProject ? "26px" : "7px") : (it.space || 0) + "px";
 		a.style.color = it.out || "#707171";
 		a.addEventListener("mouseenter", () => { if (!a.classList.contains("selected")) a.style.color = it.over || "#000"; });
 		a.addEventListener("mouseleave", () => { if (!a.classList.contains("selected")) a.style.color = it.out || "#707171"; });
