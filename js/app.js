@@ -230,7 +230,7 @@ function loadSection(index, { push = true } = {}) {
 	plane.style.opacity = 1;
 	cam.mode = "idle";
 	cam.x = cam.y = 0;
-	slides = item.slides.map((s) => ({ ...s, x: 0, w: 0, h: 0, el: null, loaded: false }));
+	slides = item.slides.map((s) => ({ x: 0, el: null, loaded: false, ...s })); // keep authored w/h from the data
 	updateCounters();
 
 	// sequential load queue; each slide lands at the running x offset
