@@ -40,6 +40,8 @@ const EASE = 1 / 6;             // DynamicDrag: distance/6 per frame
 const TWEEN_S = 2000;           // Tweener slide/section tween: 2s
 const easeOutExpo = (t) => (t >= 1 ? 1 : 1 - Math.pow(2, -10 * t));
 
+const SYS_SLUGS = new Set(["intro", "info", "what", "reel"]);
+
 let site = null;
 let menuId = 0;                 // current section
 let id = 0;                     // current slide
