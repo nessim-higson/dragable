@@ -93,9 +93,10 @@ function tick(now) {
 		cam.y = cam.fy + (cam.ty - cam.fy) * e;
 		if (p >= 1) cam.mode = "idle";
 	}
-	// left-anchored origin; the original's drag clip sat in the upper part
-	// of the stage, not centered — anchor the strip axis at 36% viewport height
-	plane.style.transform = `translate3d(${cam.x}px, ${Math.round(innerHeight * 0.36) + cam.y}px, 0)`;
+	// left-anchored, TOP-aligned: the original DragView left every clip at
+	// y=0 (its -height/2 was computed but never applied) with the container
+	// at the stage top — slides share a common top edge and grow downward
+	plane.style.transform = `translate3d(${cam.x}px, ${20 + cam.y}px, 0)`;
 
 	// the drag hint chases the mouse with the same elastic /6
 	if (attract) {
@@ -149,11 +150,11 @@ function endAttract() {
 /* current slide = the one under the viewport center (Main.checkCurIdHandler) */
 function checkCurId() {
 	const cx = innerWidth / 2 - cam.x; // viewport center in plane coords
-	const cy = innerHeight / 2 - Math.round(innerHeight * 0.36) - cam.y;
+	const cy = innerHeight / 2 - 20 - cam.y;
 	for (let i = 0; i < slides.length; i++) {
 		const s = slides[i];
 		if (!s.loaded) continue;
-		if (cx >= s.x && cx < s.x + s.w && Math.abs(cy) <= s.h / 2) {
+		if (cx >= s.x && cx < s.x + s.w && cy >= 0 && cy < s.h) {
 			id = i;
 			updateCounters();
 			return;
@@ -247,7 +248,7 @@ function loadSection(index, { push = true } = {}) {
 		const holder = document.createElement("div");
 		holder.className = "holder";
 		holder.style.left = s.x + "px";
-		holder.style.top = Math.round(-h / 2) + "px";
+		holder.style.top = "0px"; // top-aligned, as the original engine laid slides
 		holder.style.width = w + "px";
 		holder.style.height = h + "px";
 		holder.appendChild(node);
