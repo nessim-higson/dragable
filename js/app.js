@@ -274,8 +274,8 @@ function loadSection(index, { push = true } = {}) {
 				const player = window.RufflePlayer.newest().createPlayer();
 				player.style.width = w + "px";
 				player.style.height = h + "px";
+				place(i, player, w, h); // attach first — Ruffle ignores load() on disconnected elements
 				(player.ruffle ? player.ruffle() : player).load({ url: "/" + s.src });
-				place(i, player, w, h);
 			}).catch(() => place(i, flashCard(item, s), 720, 220));
 		} else {
 			const img = new Image();
